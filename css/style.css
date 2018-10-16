@@ -1,0 +1,11 @@
+@media (max-width: 992px) {
+  .hola {
+    background-color: purple; } }
+@media (max-width: 576px) {
+  .hola {
+    background-color: pink; } }
+@media (max-width: 768px) {
+  .hola {
+    background-color: yellow; } }
+
+/*# sourceMappingURL=style.css.map */
