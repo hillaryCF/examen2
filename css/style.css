@@ -1,11 +1,14 @@
+h1 {
+  text-align: center; }
+
 @media (max-width: 992px) {
-  .hola {
-    background-color: purple; } }
+  h1 {
+    color: purple; } }
 @media (max-width: 576px) {
-  .hola {
-    background-color: pink; } }
+  h1 {
+    color: green; } }
 @media (max-width: 768px) {
-  .hola {
-    background-color: yellow; } }
+  h1 {
+    color: yellow; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,yBAAkC;EAC/B,KAAK;IACD,gBAAgB,EAAE,MAAM;ACF/B,yBAAkC;EAC9B,KAAK;IACD,gBAAgB,EAAE,IAAI;ACF9B,yBAAkC;EAC9B,KAAK;IACD,gBAAgB,EAAE,MAAM",
-"sources": ["../sass/breakpoints/_laptop.scss","../sass/breakpoints/_mobile.scss","../sass/breakpoints/_tablet.scss"],
+"mappings": "AAOA,EAAE;EACE,UAAU,EAAE,MAAM;;ACRtB,yBAAkC;EAC/B,EAAE;IACE,KAAK,EAAE,MAAM;ACFpB,yBAAkC;EAC9B,EAAE;IACC,KAAK,EAAE,KAAK;ACFnB,yBAAkC;EAC9B,EAAE;IACA,KAAK,EAAE,MAAM",
+"sources": ["../sass/general/_variables.scss","../sass/breakpoints/_laptop.scss","../sass/breakpoints/_mobile.scss","../sass/breakpoints/_tablet.scss"],
 "names": [],
 "file": "style.css"
 }
