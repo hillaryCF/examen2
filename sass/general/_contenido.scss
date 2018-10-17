@@ -1,0 +1,35 @@
+$color:black;
+p{
+    color:pink;
+}
+
+.container{
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+// primer contenedor
+#content1{
+    background-color: #87509c;
+    
+    img{
+        margin-left: 100px;
+    }
+    li{
+        float: right;
+        list-style: none;
+        margin-top: 0;
+        color: white;
+    }
+    
+   
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+    
+}
