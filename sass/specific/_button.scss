@@ -1,0 +1,19 @@
+@mixin button ($button,$margin){
+    padding: 10px;
+    background-color: $button;
+    border-color:$button; 
+    width: 15%;  
+    border-radius: 3px;
+    margin-left: 50%;
+    color: $white;
+    margin-bottom: 190px;
+    margin-top:$margin;
+}
+
+.button1{
+    @include button ($button,0);
+ }
+ .button2{
+    @include button ($bluebutton,$margin);
+}
+ 

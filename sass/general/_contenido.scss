@@ -1,23 +1,23 @@
-$color:black;
-
-
 .container{
     margin: 0 auto;
 }
 body{
-
     margin: 0;
     font-family: 'Titillium Web', sans-serif;
+}
+
+// subcontent
+.subcontent{
+    max-width: $breakpoint-xl;
+    margin: 0 auto;
 }
 
 // primer contenedor
 #content1{
     background-color: #87509c;
-    
     .logo{
         margin-left: 100px;
         margin-top: 20px;
-       
     }
     .list{
         float: right;
@@ -32,24 +32,13 @@ body{
             padding: 5px;
             border-radius: 5px;
         }
-        
     }
-    
-   p{
+    p{
        text-align: center;
        color: $white;
        font-size: 2em;
    }
-   button{
-       padding: 10px;
-       background-color: $button;
-       border-color:$button; 
-       width: 15%;  
-       border-radius: 3px;
-       margin-left: 50%;
-       color: $white;
-       margin-bottom: 190px;
-    }
+  
 }
 .clearfix::after{
     display: block;
@@ -58,35 +47,28 @@ body{
 }
 
 // segundo contenedor
-
 #content2{
     background-color: $green;
     height:800px;
     color: $white;
-    
     h2{
-        margin-top: 0;
-        text-align: $textC;
-        padding: 84px;
-        
+        @include size-h2;
     }
     p{
         color: $white;
         text-align: $textC;
     }
-    .line{
-    border-bottom: 6px solid $line;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    }
-}
-.subcontent{
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
+// lineas de titulos
+.line-green{
+    @include line ($lineG);
+}
+.line-blue{
+    @include line($lineB);
+}
+    
 // box image
-
 .imgbox{
     width: 250px;
     text-align: center;
@@ -95,17 +77,12 @@ body{
     margin-top: 74px;
 }
 
-
 // tercer contenedor
-
 #content3{
     background-color: $blue;
     color: $white;
-
     h2{
-        margin-top: 0;
-        text-align: $textC;
-        padding: 84px;
+        @include size-h2;
     }
     .center{
         text-align: $textC;
@@ -114,15 +91,26 @@ body{
         color: $red;
     }
 }
-.box{
-    background-color: $boxInf;
-    border-color: $boxInf;
-    border-block-end-color: $boxInf;
-    padding-left: 100px;
-    padding-bottom: 15px;
-}
+
+
 
 // footer
 .footer{
     background-color: $blueF;
+    .social{
+        margin-top: -1px;
+    }
+    li{
+        display: inline;
+        list-style: none;
+        margin-right: 26px;
+       } 
+       a{
+        color: $white;
+        text-decoration: none;
+        font-size: 25px;
+       }
+       :hover{
+           color: $social;
+       }
 }

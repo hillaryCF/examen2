@@ -4,6 +4,7 @@ $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
+$margin:70px;
 
 $white:white;
 $green:#17c2a4;
@@ -11,7 +12,24 @@ $blue:#3c5499;
 $blueF:#344b8e;
 $button:#eb7d4b;
 $textC:center;
-$line:#16b99d;
+$lineG:#16b79b;
+$lineB:#364d8e;
 $colorHover:#784a8c;
 $boxInf:#273a71;
 $red:red;
+$bluebutton:#30bae7;
+$social: #3288bf;
+
+@mixin line ($line){
+    height: 4px;
+    border: 0;
+    background-color: $line;
+    margin-top: -98px;
+    width: 10%;
+}
+@mixin size-h2 {
+    margin-top: 0;
+    text-align: $textC;
+    padding: 84px;
+    font-size: 2em;
+}
