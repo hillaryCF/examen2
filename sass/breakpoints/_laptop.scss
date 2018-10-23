@@ -1,3 +1,12 @@
 @media (max-width: $breakpoint-lg){
- background-color: blue;
+    .imgbox {
+        margin-left: 165px;
+    }
+    #content2 {
+      height: 980px;
+    }
+    .footer a {
+        font-size: 15px;
+        margin-left: 48px;
+    }
 }
